@@ -1,0 +1,44 @@
+/*font-family: 'Inder', sans-serif;*/
+/*font-family: 'Andika', sans-serif;*/
+/*font-family: 'Quicksand', sans-serif;*/
+/*font-family: 'Timmana', sans-serif;*/
+/*font-family: 'Convergence', sans-serif;*/
+/*font-family: 'Muli', sans-serif;*/
+
+* {
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing: border-box;
+}
+
+body {
+	font-size:100%;
+	font-family: 'Andika', sans-serif;
+	margin:0;
+	padding:0;
+	background-color:#FEF7EB;
+}
+
+header {
+	margin:1em 0 1em 0;
+}
+
+header h1 {
+	font-size:2.2em;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+p {
+	margin:0;
+	font-size:1.2em;
+	line-height:1.5em;
+}
+
+img {
+	margin:.5em 0 .5em 0;
+}
