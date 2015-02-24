@@ -40,5 +40,283 @@ p {
 }
 
 img {
-	margin:.5em 0 .5em 0;
+	margin:0 auto;
 }
+
+figure {
+	margin:0;
+}
+
+div {
+	margin:.5em;
+}
+
+.weather {
+	display:block;
+}
+
+.dumps {
+	display:none;
+}
+
+.bent {
+	display:none;
+}
+
+.tickled {
+	display:none;
+}
+
+.stitches {
+	display:none;
+}
+
+.dog {
+	display:none;
+}
+
+.punch {
+	display:none;
+}
+
+.ants {
+	display:none;
+}
+
+@media only screen and (min-width: 355px) {
+.weather {
+}
+
+.dumps {
+	display:block;
+}
+
+.bent {
+	display:none;
+}
+
+.tickled {
+	display:none;
+}
+
+.stitches {
+	display:none;
+}
+
+.dog {
+	display:none;
+}
+
+.punch {
+	display:none;
+}
+
+.ants {
+	display:none;
+}
+	
+} /* end of 321px */
+
+@media only screen and (min-width: 466px) {
+.weather {
+}
+
+.dumps {
+	display:block;
+}
+
+.bent {
+	display:block;
+}
+
+.tickled {
+	display:none;
+}
+
+.stitches {
+	display:none;
+}
+
+.dog {
+	display:none;
+}
+
+.punch {
+	display:none;
+}
+
+.ants {
+	display:none;
+}
+	
+} /* end of 466px */
+
+@media only screen and (min-width: 612px) {
+.weather {
+}
+
+.dumps {
+	display:block;
+}
+
+.bent {
+	display:block;
+}
+
+.tickled {
+	display:block;
+}
+
+.stitches {
+	display:none;
+}
+
+.dog {
+	display:none;
+}
+
+.punch {
+	display:none;
+}
+
+.ants {
+	display:none;
+}
+	
+} /* end of 612px */
+
+@media only screen and (min-width: 758px) {
+.weather {
+}
+
+.dumps {
+	display:block;
+}
+
+.bent {
+	display:block;
+}
+
+.tickled {
+	display:block;
+}
+
+.stitches {
+	display:block;
+}
+
+.dog {
+	display:none;
+}
+
+.punch {
+	display:none;
+}
+
+.ants {
+	display:none;
+}
+	
+} /* end of 758px */
+
+@media only screen and (min-width: 904px) {
+.weather {
+}
+
+.dumps {
+	display:block;
+}
+
+.bent {
+	display:block;
+}
+
+.tickled {
+	display:block;
+}
+
+.stitches {
+	display:block;
+}
+
+.dog {
+	display:block;
+}
+
+.punch {
+	display:none;
+}
+
+.ants {
+	display:none;
+}
+	
+} /* end of 904px */
+
+@media only screen and (min-width: 1050px) {
+.weather {
+}
+
+.dumps {
+	display:block;
+}
+
+.bent {
+	display:block;
+}
+
+.tickled {
+	display:block;
+}
+
+.stitches {
+	display:block;
+}
+
+.dog {
+	display:block;
+}
+
+.punch {
+	display:block;
+}
+
+.ants {
+	display:none;
+}
+	
+} /* end of 1050px */
+
+@media only screen and (min-width: 1200px) {
+.weather {
+}
+
+.dumps {
+	display:block;
+}
+
+.bent {
+	display:block;
+}
+
+.tickled {
+	display:block;
+}
+
+.stitches {
+	display:block;
+}
+
+.dog {
+	display:block;
+}
+
+.punch {
+	display:block;
+}
+
+.ants {
+	display:block;
+}
+	
+} /* end of 1200px */
