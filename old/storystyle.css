@@ -20,7 +20,7 @@ body {
 }
 
 header {
-	margin:1em;
+	margin:1em 0 1em 0;
 }
 
 header h1 {
@@ -53,22 +53,7 @@ figcaption {
 }
 
 div {
-	min-height:420px;
-}
-
-div .header {
-	margin:0 auto;
-	min-height:100%;
-	text-align:center;
-}
-
-div .carousel {
-	margin:0 auto;
-	max-width:270px;
-}
-
-div .weather, .dumps, .bent, .tickled, .stitches, .dog, .punch, .ants {
-	/*margin:.5em;*/
+	margin:.5em;
 	max-width:270px;
 	float:left;
 	position:relative;
@@ -178,7 +163,7 @@ div.img {
 	bottom:3px;
 }
 
-/*@media only screen and (max-width:355px){
+@media only screen and (max-width:355px){
 	
 .weather {
 	display:block;
@@ -311,7 +296,7 @@ div.img {
 	display:block;
 }
 	
-} /* end of 1200px */*/
+} /* end of 1200px */
 
 
 
