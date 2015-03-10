@@ -16,7 +16,7 @@ body {
 	font-family: 'Andika', sans-serif;
 	margin:0;
 	padding:0;
-	background-color:#FEF7EB;
+	background-color:#999;
 }
 
 header {
@@ -53,7 +53,7 @@ figcaption {
 }
 
 div {
-	min-height:420px;
+	min-height:738px;
 }
 
 div .header {
@@ -64,22 +64,19 @@ div .header {
 
 div .carousel {
 	margin:0 auto;
-	max-width:270px;
+	max-width:439px;
 }
 
 div .weather, .dumps, .bent, .tickled, .stitches, .dog, .punch, .ants {
-	/*margin:.5em;*/
-	max-width:270px;
 	float:left;
 	position:relative;
-	min-width:270px;
-	min-height:420px;
-	/*min-height:472.5px;*/
+	min-width:439px;
+	min-height:738px;
 	background-size:cover;
 	background-repeat:none;
 }
 div.img {
-	max-width:270px;
+	/*max-width:270px;*/
 }
 
 .weather {
