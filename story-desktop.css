@@ -1,0 +1,273 @@
+
+* {
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing: border-box;
+}
+
+body {
+	font-size:100%;
+	font-family: 'Andika', sans-serif;
+	margin:0;
+	padding:10px;
+	background-color:#000;
+}
+
+header {
+	margin:.2em;
+	font-size:1.1em;
+	font-family: 'Quicksand', sans-serif;
+	padding:0;
+	color:#FF403F;
+	text-shadow:.2px .2px 0 #fff, 0 0 12px #FF8A89;
+	text-decoration:blink;
+}
+
+p {
+	margin:0;
+	font-size:1.2em;
+	line-height:1.5em;
+}
+
+div .arrow {
+	display:block;
+	color:#fff;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	min-height:75px;	
+	min-width:150px;
+	background-image:url(images/arrow.svg);
+	background-size:cover;
+	background-repeat:none;
+	float:right;
+}
+
+.arrow p {
+	color:#fff;
+	margin:0 5px 0 0;
+}
+
+div .header {
+	display:block;
+	margin:0 auto;
+	min-height:100%;
+	text-align:center;
+}
+
+div .wrapper {
+	display:block;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+	text-align:center;
+}
+
+.weather, .dumps, .bent, .tickled, .stitches, .dog, .punch, .ants {
+	display:none;
+	float:left;
+	position:relative;
+	background-size:cover;
+	margin:0 auto;
+}
+
+.weather {
+	display:none;
+	background-image:url(images/weather-d.svg);
+	min-width:320px;
+	min-height:402px;
+}
+
+.weather p {
+	max-width:8.7em;
+	padding:.5em;
+	line-height:1.2em;
+}
+	
+.dumps {
+	background-image:url(images/dumps-d.svg);
+	min-width:420px;
+	min-height:426px;
+}
+
+.dumps p {
+	color:#000;
+	line-height:1.2em;
+	padding:.5em;
+	width:270px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	text-shadow: 2px 2px 4px #fff, -2px -2px 4px #fff;
+}
+
+.bent {
+	background-image:url(images/bent-d.svg);
+	min-width:520px;
+	min-height:453px;
+}
+
+.bent p {
+	color:#000;
+	padding:.5em;
+	width:185px;
+	position:absolute;
+	right:3px;
+	top:3px;
+}
+
+.tickled {
+	background-image:url(images/tickled-d.svg);
+	min-width:620px;
+	min-height:494px;
+}
+
+.tickled p {
+	color:#fff;
+	padding:.5em;
+	width:420px;
+	position:absolute;
+	left:3px;
+	bottom:3px;
+}
+
+.stitches {
+	background-image:url(images/stitches-d.svg);
+	min-width:720px;
+	min-height:535px;
+}
+
+.stitches p {
+	max-width:8.9em;
+	padding:.5em;
+}
+
+.dog {
+	background-image:url(images/dog-d.svg);
+	min-width:820px;
+	min-height:576px;
+}
+
+.dog p {
+	color:#000;
+	padding:.5em;
+	width:260px;
+	position:absolute;
+	left:7px;
+	top:130px;
+}
+
+.punch {
+	background-image:url(images/punch-d.svg);
+	min-width:920px;
+	min-height:617px;
+}
+
+.punch p {
+	max-width:8.9em;
+	padding:.5em;
+	position:absolute;
+	left:30px;
+	top:130px;
+}
+
+.ants {
+	background-image:url(images/ants-d.svg);
+	min-width:1020px;
+	min-height:659px;
+}
+
+.ants #text {
+	color:#000;
+	padding:.5em;
+	width:240px;
+	position:absolute;
+	left:30px;
+	top:30px;
+}
+
+#end {
+	color:#fff;
+	font-size:1.8em;
+	padding:.5em;
+	position:absolute;
+	right:30px;
+	bottom:15px;
+}
+
+@media only screen and (min-width:320px) and (max-width:419px){
+header {
+	margin:.2em;
+	font-size:.7em;
+	font-family: 'Quicksand', sans-serif;
+	padding:0;
+}
+
+.weather {
+	display:block;
+}
+	
+} /* end of 320px */
+
+@media only screen and (min-width: 420px) and (max-width: 519px) {
+header {
+	margin:.2em;
+	font-size:.9em;
+	font-family: 'Quicksand', sans-serif;
+	padding:0;
+}
+.dumps {
+	display:block;
+}
+	
+} /* end of 420px */
+
+@media only screen and (min-width: 520px) and (max-width: 619px) {
+header {
+	margin:.3em;
+	font-size:1.1em;
+	font-family: 'Quicksand', sans-serif;
+	padding:0;
+}
+.bent {
+	display:block;
+}
+	
+} /* end of 520px */
+
+@media only screen and (min-width: 620px) and (max-width: 719px) {
+
+.tickled {
+	display:block;
+}
+	
+} /* end of 620px */
+
+@media only screen and (min-width: 720px) and (max-width: 819px) {
+
+.stitches {
+	display:block;
+}
+
+} /* end of 720px */
+
+@media only screen and (min-width: 820px) and (max-width: 919px) {
+
+.dog {
+	display:block;
+}
+
+	
+} /* end of 820px */
+
+@media only screen and (min-width: 920px) and (max-width: 1019px) {
+.punch {
+	display:block;
+}	
+} /* end of 920 px */
+
+@media only screen and (min-width: 1020px) {
+.ants {
+	display:block;
+}
+} /* end of 1020px */
