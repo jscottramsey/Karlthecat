@@ -21,6 +21,7 @@ body {
 
 header {
 	margin:1em;
+	display:none;
 }
 
 header h1 {
